@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEA64801CEE81643CA672A30 /* Pods_Piechart1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3002307AA72138BA60FAE5 /* Pods_Piechart1.framework */; };
 		F9056C5D248A3FB2003525B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9056C5C248A3FB2003525B4 /* AppDelegate.swift */; };
 		F9056C5F248A3FB2003525B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9056C5E248A3FB2003525B4 /* SceneDelegate.swift */; };
 		F9056C61248A3FB2003525B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9056C60248A3FB2003525B4 /* ViewController.swift */; };
 		F9056C64248A3FB2003525B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9056C62248A3FB2003525B4 /* Main.storyboard */; };
 		F9056C66248A3FB6003525B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9056C65248A3FB6003525B4 /* Assets.xcassets */; };
 		F9056C69248A3FB6003525B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9056C67248A3FB6003525B4 /* LaunchScreen.storyboard */; };
+		F9B1C6D2248C10E50045DB74 /* PiechartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B1C6D1248C10E50045DB74 /* PiechartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A3002307AA72138BA60FAE5 /* Pods_Piechart1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Piechart1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A7F6C015BB1CAF0619BEBC /* Pods-Piechart1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piechart1.release.xcconfig"; path = "Target Support Files/Pods-Piechart1/Pods-Piechart1.release.xcconfig"; sourceTree = "<group>"; };
+		B36005FF24BCECFEC29267C3 /* Pods-Piechart1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piechart1.debug.xcconfig"; path = "Target Support Files/Pods-Piechart1/Pods-Piechart1.debug.xcconfig"; sourceTree = "<group>"; };
 		F9056C59248A3FB2003525B4 /* Piechart1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piechart1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9056C5C248A3FB2003525B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9056C5E248A3FB2003525B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		F9056C65248A3FB6003525B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9056C68248A3FB6003525B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9056C6A248A3FB6003525B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B1C6D1248C10E50045DB74 /* PiechartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiechartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA64801CEE81643CA672A30 /* Pods_Piechart1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D11FDAFAD1976CE7D9378EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A3002307AA72138BA60FAE5 /* Pods_Piechart1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9056C50248A3FB2003525B4 = {
 			isa = PBXGroup;
 			children = (
 				F9056C5B248A3FB2003525B4 /* Piechart1 */,
 				F9056C5A248A3FB2003525B4 /* Products */,
+				FF4B71902F5634D4FCCC6352 /* Pods */,
+				8D11FDAFAD1976CE7D9378EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +80,18 @@
 				F9056C65248A3FB6003525B4 /* Assets.xcassets */,
 				F9056C67248A3FB6003525B4 /* LaunchScreen.storyboard */,
 				F9056C6A248A3FB6003525B4 /* Info.plist */,
+				F9B1C6D1248C10E50045DB74 /* PiechartViewController.swift */,
 			);
 			path = Piechart1;
+			sourceTree = "<group>";
+		};
+		FF4B71902F5634D4FCCC6352 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B36005FF24BCECFEC29267C3 /* Pods-Piechart1.debug.xcconfig */,
+				A2A7F6C015BB1CAF0619BEBC /* Pods-Piechart1.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9056C6D248A3FB6003525B4 /* Build configuration list for PBXNativeTarget "Piechart1" */;
 			buildPhases = (
+				CFCA27A187E20EB80199E576 /* [CP] Check Pods Manifest.lock */,
 				F9056C55248A3FB2003525B4 /* Sources */,
 				F9056C56248A3FB2003525B4 /* Frameworks */,
 				F9056C57248A3FB2003525B4 /* Resources */,
+				89FA8408C52EBC8D005C4F6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +162,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89FA8408C52EBC8D005C4F6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Piechart1/Pods-Piechart1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Piechart1/Pods-Piechart1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Piechart1/Pods-Piechart1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCA27A187E20EB80199E576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Piechart1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9056C55248A3FB2003525B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B1C6D2248C10E50045DB74 /* PiechartViewController.swift in Sources */,
 				F9056C61248A3FB2003525B4 /* ViewController.swift in Sources */,
 				F9056C5D248A3FB2003525B4 /* AppDelegate.swift in Sources */,
 				F9056C5F248A3FB2003525B4 /* SceneDelegate.swift in Sources */,
@@ -282,6 +354,7 @@
 		};
 		F9056C6E248A3FB6003525B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36005FF24BCECFEC29267C3 /* Pods-Piechart1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +373,7 @@
 		};
 		F9056C6F248A3FB6003525B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A7F6C015BB1CAF0619BEBC /* Pods-Piechart1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
